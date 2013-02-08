@@ -39,7 +39,7 @@ Building notes
 
 1) Remove Code signing identity if present (should not, but sometimes I push it back)
 
-Xcode 4.3+ (tips from @sashalaundy): 
+Xcode 4.3+ (tips from @sashalaundy):	
 1) Product > Edit Scheme
 2) At top set Scheme to "Pomodoro" and Destination to "My Mac __-bit"
 3) On left select Archive
