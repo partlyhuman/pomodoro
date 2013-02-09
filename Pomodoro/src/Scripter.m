@@ -45,6 +45,8 @@
 	if (nil == applescript) {
 		NSString* scriptFileName = [[NSBundle mainBundle] pathForResource: scriptId ofType: @"applescript"];
 		applescript = [[[NSAppleScript alloc] initWithContentsOfURL: [NSURL fileURLWithPath: scriptFileName] error: nil] autorelease];
+        NSLog(@"Applescript %@ is compiled? %d", scriptFileName, [applescript isCompiled]);
+        
 		[applescript compileAndReturnError:nil];
 		[scripts setObject:applescript forKey:scriptId];
 	} 
@@ -60,6 +62,7 @@
 		[scripts setObject:scriptText forKey:scriptId];
 	} 
 	NSAppleScript* applescript = [[[NSAppleScript alloc] initWithSource:[NSString stringWithFormat:scriptText, parameter]] autorelease];
+    NSLog(@"Applescript %@ is compiled? %d", applescript, [applescript isCompiled]);
 	return [applescript executeAndReturnError:nil];
 }
 

@@ -126,17 +126,12 @@
 		69ED6411133BB31F003F59BA /* SmartTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ED6410133BB31F003F59BA /* SmartTimer.m */; };
 		69ED6414133BB502003F59BA /* SmartTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ED6413133BB502003F59BA /* SmartTimerTests.m */; };
 		69FCF747135729DD003862DC /* ringBreak.wav in Resources */ = {isa = PBXBuildFile; fileRef = 69FCF746135729DD003862DC /* ringBreak.wav */; };
-		DB4C2A87166888A6000B2718 /* setStatusToAvailableInMessages.applescript in Sources */ = {isa = PBXBuildFile; fileRef = DB4C2A86166888A6000B2718 /* setStatusToAvailableInMessages.applescript */; };
-		DB4C2A89166888D4000B2718 /* setStatusToPomodoroInMessages.applescript in Sources */ = {isa = PBXBuildFile; fileRef = DB4C2A88166888D4000B2718 /* setStatusToPomodoroInMessages.applescript */; };
 		DB4C2A8A166889F0000B2718 /* setStatusToAvailableInMessages.applescript in Resources */ = {isa = PBXBuildFile; fileRef = DB4C2A86166888A6000B2718 /* setStatusToAvailableInMessages.applescript */; };
 		DB4C2A8B166889F0000B2718 /* setStatusToPomodoroInMessages.applescript in Resources */ = {isa = PBXBuildFile; fileRef = DB4C2A88166888D4000B2718 /* setStatusToPomodoroInMessages.applescript */; };
 		DB8AF4F4165EEB0F0039DA49 /* OpenUrlCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8AF4F3165EEB0F0039DA49 /* OpenUrlCommand.m */; };
-		DBD776D916604A63003F58B4 /* getActiveUrlsFromBrowsers.applescript in Sources */ = {isa = PBXBuildFile; fileRef = DBD776D816604A63003F58B4 /* getActiveUrlsFromBrowsers.applescript */; };
 		DBD776DB16604D16003F58B4 /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD776DA16604D15003F58B4 /* safari.png */; };
 		DBD776E216605537003F58B4 /* BrowsingNannyController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD776E116605536003F58B4 /* BrowsingNannyController.m */; };
 		DBD776E316605886003F58B4 /* getActiveUrlsFromBrowsers.applescript in Resources */ = {isa = PBXBuildFile; fileRef = DBD776D816604A63003F58B4 /* getActiveUrlsFromBrowsers.applescript */; };
-		DCAF37C8164AE360003764C9 /* getToDoListFromReminders.applescript in Sources */ = {isa = PBXBuildFile; fileRef = DCAF37C7164AE360003764C9 /* getToDoListFromReminders.applescript */; };
-		DCAF37CC164AFB6C003764C9 /* addTodoToReminders.applescript in Sources */ = {isa = PBXBuildFile; fileRef = DCAF37CB164AFB6C003764C9 /* addTodoToReminders.applescript */; };
 		DCAF37CD164B074D003764C9 /* getToDoListFromReminders.applescript in Resources */ = {isa = PBXBuildFile; fileRef = DCAF37C7164AE360003764C9 /* getToDoListFromReminders.applescript */; };
 		DCAF37CE164B074D003764C9 /* addTodoToReminders.applescript in Resources */ = {isa = PBXBuildFile; fileRef = DCAF37CB164AFB6C003764C9 /* addTodoToReminders.applescript */; };
 /* End PBXBuildFile section */
@@ -1013,23 +1008,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBD776E316605886003F58B4 /* getActiveUrlsFromBrowsers.applescript in Resources */,
-				DB4C2A8A166889F0000B2718 /* setStatusToAvailableInMessages.applescript in Resources */,
-				DB4C2A8B166889F0000B2718 /* setStatusToPomodoroInMessages.applescript in Resources */,
-				DCAF37CD164B074D003764C9 /* getToDoListFromReminders.applescript in Resources */,
-				DCAF37CE164B074D003764C9 /* addTodoToReminders.applescript in Resources */,
 				69ED63FB133B9F5F003F59BA /* addTodoToOmniFocus.applescript in Resources */,
 				69ED63FC133B9F5F003F59BA /* addTodoToThings.applescript in Resources */,
 				69ED63FD133B9F5F003F59BA /* getToDoListFromOmniFocus.applescript in Resources */,
 				69ED63FE133B9F5F003F59BA /* getToDoListFromThings.applescript in Resources */,
+				DBD776E316605886003F58B4 /* getActiveUrlsFromBrowsers.applescript in Resources */,
 				69ED63FF133B9F5F003F59BA /* insertIntoLoginItems.applescript in Resources */,
 				69ED6400133B9F5F003F59BA /* removeFromLoginItems.applescript in Resources */,
 				69ED6401133B9F5F003F59BA /* setStatusToAvailableInAdium.applescript in Resources */,
 				69ED6402133B9F5F003F59BA /* setStatusToAvailableInIChat.applescript in Resources */,
+				DB4C2A8A166889F0000B2718 /* setStatusToAvailableInMessages.applescript in Resources */,
 				69ED6403133B9F5F003F59BA /* setStatusToAvailableInSkype.applescript in Resources */,
 				69ED6404133B9F5F003F59BA /* setStatusToPomodoroInAdium.applescript in Resources */,
 				69ED6405133B9F5F003F59BA /* setStatusToPomodoroInIChat.applescript in Resources */,
+				DB4C2A8B166889F0000B2718 /* setStatusToPomodoroInMessages.applescript in Resources */,
 				69ED6406133B9F5F003F59BA /* setStatusToPomodoroInSkype.applescript in Resources */,
+				DCAF37CD164B074D003764C9 /* getToDoListFromReminders.applescript in Resources */,
+				DCAF37CE164B074D003764C9 /* addTodoToReminders.applescript in Resources */,
 				698F4620133B5AF900311E34 /* audio.png in Resources */,
 				698F4621133B5AF900311E34 /* calendar.png in Resources */,
 				698F4622133B5AF900311E34 /* compile.png in Resources */,
@@ -1181,13 +1176,8 @@
 				69D17E1B136C0F6300F5D922 /* ExternalInterruptCommand.m in Sources */,
 				69D17E21136C101900F5D922 /* ResumeCommand.m in Sources */,
 				69D17E24136C103800F5D922 /* InternalInterruptCommand.m in Sources */,
-				DCAF37C8164AE360003764C9 /* getToDoListFromReminders.applescript in Sources */,
-				DCAF37CC164AFB6C003764C9 /* addTodoToReminders.applescript in Sources */,
-				DBD776D916604A63003F58B4 /* getActiveUrlsFromBrowsers.applescript in Sources */,
 				DBD776E216605537003F58B4 /* BrowsingNannyController.m in Sources */,
 				DB8AF4F4165EEB0F0039DA49 /* OpenUrlCommand.m in Sources */,
-				DB4C2A87166888A6000B2718 /* setStatusToAvailableInMessages.applescript in Sources */,
-				DB4C2A89166888D4000B2718 /* setStatusToPomodoroInMessages.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1372,6 +1362,7 @@
 				GCC_PREFIX_HEADER = "Pomodoro/Pomodoro-Prefix.pch";
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = "Pomodoro/Pomodoro-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1393,6 +1384,7 @@
 				GCC_PREFIX_HEADER = "Pomodoro/Pomodoro-Prefix.pch";
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = "Pomodoro/Pomodoro-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
